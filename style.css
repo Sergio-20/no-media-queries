@@ -8,6 +8,10 @@
     --secondary-font: 'Teko', sans-serif;
  }
 
+ html {
+   overflow-x: hidden !important;
+ }
+
  article:hover {
    cursor: pointer;
    transition: transform .2s;
@@ -15,7 +19,7 @@
  }
 
  body {
-   margin-top: 4rem;
+   margin-top: 6rem;
  }
 
  body h1 {
@@ -160,7 +164,6 @@
    display: inline-block;
    font-family: var(--secondary-font);
    font-size: 1.4rem;
-   margin-left: 6rem;
    text-align: left;
  }
 
