@@ -39,7 +39,7 @@
 
  /*Classes*/
 
- .article-row-1, .article-row-2, .article-row-3, footer, header {
+ .article-row-1, .article-row-2, .article-row-3 {
    align-items: center;
    display: grid;
    font-family: var(--secondary-font);
