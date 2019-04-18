@@ -8,6 +8,12 @@
     --secondary-font: 'Teko', sans-serif;
  }
 
+ article:hover {
+   cursor: pointer;
+   transition: transform .2s;
+   transform: scale(1.2);
+ }
+
  body h1 {
     font-family: var(--primary-font);
     text-align: center;
@@ -33,7 +39,7 @@
 
  /*Classes*/
 
- .article-row-1, .article-row-2 {
+ .article-row-1, .article-row-2, .article-row-3, footer, header {
    align-items: center;
    display: grid;
    font-family: var(--secondary-font);
@@ -117,5 +123,20 @@
 
  .row-2-article-3 {
    background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-M33hln-at2U%2FT_VX-zzpVVI%2FAAAAAAAAAjk%2FNp6MDJtM7zA%2Fs1600%2Fmgs.jpg&f=1");
+   background-size: cover;
+ }
+
+ .row-3-article-1 {
+   background: url("https://www.lukiegames.com/assets/images/N64/n64_f-zero_x_p_w0x58i.jpg") center;
+   background-size: cover;
+ }
+
+ .row-3-article-2 {
+   background: url("https://roystanross.files.wordpress.com/2014/09/260px-super_mario_64_box_cover.jpg");
+   background-size: cover;
+ }
+
+ .row-3-article-3 {
+   background: url("https://media.moddb.com/images/games/1/22/21084/boxart.jpg");
    background-size: cover;
  }
