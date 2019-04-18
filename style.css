@@ -14,6 +14,10 @@
    transform: scale(1.2);
  }
 
+ body {
+   margin-top: 4rem;
+ }
+
  body h1 {
     font-family: var(--primary-font);
     text-align: center;
@@ -150,6 +154,14 @@
  .row-3-article-3 {
    background: url("https://wallpapercave.com/wp/jm6mqp9.jpg");
    background-size: cover;
+ }
+
+ .searchbar {
+   display: inline-block;
+   font-family: var(--secondary-font);
+   font-size: 1.4rem;
+   margin-left: 6rem;
+   text-align: left;
  }
 
  /*Font Awesome Icons*/
