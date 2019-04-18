@@ -1,0 +1,121 @@
+  /*Google Fonts*/
+ @import url('https://fonts.googleapis.com/css?family=Roboto|Teko');
+
+ /*General Elements*/
+
+ :root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Teko', sans-serif;
+ }
+
+ body h1 {
+    font-family: var(--primary-font);
+    text-align: center;
+ }
+
+ footer {
+   padding-bottom: 4rem;
+   text-align: center;
+ }
+
+ section h1 {
+   width: 50%;
+ }
+
+ section p {
+   width: 60%;
+ }
+
+ section h1, section p {
+   background-color: #2196f3;
+   color: #000;
+ }
+
+ /*Classes*/
+
+ .article-row-1, .article-row-2 {
+   align-items: center;
+   display: grid;
+   font-family: var(--secondary-font);
+   font-size: 1.2rem;
+   grid-auto-flow: dense;
+   grid-gap: 1rem;
+   grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr ) );
+   margin-bottom: 4rem;
+ }
+
+ /*
+
+ Every third child takes up more space.
+
+ .article-row-1 article:nth-child(3) {
+   grid-column: span 2;
+   grid-row: span 2;
+ }
+
+ .article-row-1 img {
+   height: 100%;
+   object-fit: cover;
+   width: 100%;
+ }*/
+
+ .article-row-1 button {
+   font-size: 1.2rem;
+ }
+
+ .featured {
+
+   /*Content Styles*/
+   background: url("https://wallpapercave.com/wp/jm6mqp9.jpg") center;
+   background-size: cover;
+   color: #fff;
+   margin-bottom: 2rem;
+   padding: 4rem 2rem;
+   font-family: var(--primary-font);
+
+   /*Grid Layout*/
+   align-items: center;
+   display: grid;
+   grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr ) );
+
+ }
+
+ .featured button, .feature p {
+   font-size: 1.2rem;
+ }
+
+ .hr-main {
+   background-color: #444;
+   color: #444;
+   height: 0.5rem;
+ }
+
+ .row-1-article-1 {
+   background: url("https://www.mobygames.com/images/covers/large/1272276652-00.jpg") center;
+   background-size: cover;
+ }
+
+ .row-1-article-2 {
+   background: url("https://www.mobygames.com/images/covers/large/1090423917-00.jpg");
+   background-size: cover;
+ }
+
+ .row-1-article-3 {
+   background: url("https://www.mobygames.com/images/covers/large/1259083473-00.jpg");
+   background-size: cover;
+ }
+
+ .row-2-article-1 {
+   background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Focremix.org%2Ffiles%2Fimages%2Fgames%2Fps2%2F2%2Fshadow-of-the-colossus-ps2-cover-front-eu-49219.jpg&f=1") center;
+   background-size: cover;
+ }
+
+ .row-2-article-2 {
+   background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.mobygames.com%2Fimages%2Fcovers%2Fl%2F160972-ico-playstation-2-front-cover.jpg&f=1");
+   background-size: cover;
+ }
+
+ .row-2-article-3 {
+   background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-M33hln-at2U%2FT_VX-zzpVVI%2FAAAAAAAAAjk%2FNp6MDJtM7zA%2Fs1600%2Fmgs.jpg&f=1");
+   background-size: cover;
+ }
